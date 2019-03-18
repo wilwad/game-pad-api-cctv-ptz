@@ -1,6 +1,8 @@
 var request = require('request');
 var gamepad = require("gamepad");
 
+const onvif_server = 'http://localhost/ponvif/ponvif_server.php';
+
 var PTZbusy = false;
 var direction;
 
@@ -71,7 +73,7 @@ gamepad.on("move", function (id, axis, value) {
 function ipcamPTZ(direction){
 	// Configure the request
 	var options = {
-	    url: 'http://localhost/sengdara/lib/ponvif/ponvif_server.php',
+	    url: onvif_server,
 	    method: 'GET',
 	    headers: headers,
 	    qs: {'url': '192.168.8.106:5000', 'move': direction}
