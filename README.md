@@ -10,6 +10,15 @@ What I am doing is creating a request to send direction parameters (up, down, le
 ```
 npm install gamepad
 ```
+# the ONVIF PTZ controller in PHP
+You should copy ponvif directory to your webserver. Check the lib folder therein, so you can supply the login details for your ip camera if needed. 
+I added a super simple handler that uses the ONVIF library (ponvif_server.php) which takes two parameters, namely:
+url - the PTZ control URL of the CCTV camera
+move - left, right, up, down
+The basic request looks like this & you can test it with curl by subsituting the control URL of course
+```
+curl 'http://localhost/_your_path_/lib/ponvif/ponvif_server.php?url=192.168.8.106:5000&move=left'
+```
 # running the code
 ```
 node joystick.js
