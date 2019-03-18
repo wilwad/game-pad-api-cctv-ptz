@@ -27,6 +27,7 @@ curl 'http://localhost/_your_path_/lib/ponvif/ponvif_server.php?url=192.168.8.10
 ```
 node joystick.js
 ```
+Press any keys on your joystick (axes, buttons and you should get feedback in the console). 
 Check out the rest of the code inside joystick.js.
 
 ![my generic USB game controller](https://github.com/wilwad/game-pad-api-cctv-ptz/blob/master/ipcam-gameapi.jpeg)
