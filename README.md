@@ -1,6 +1,7 @@
 # Controlling an ONVIF PTZ CCTV Camera
 I used to control my PTZ cameras using the keyboard keys (up, down, left & right)
-But now I can do that using any cheap USB game controller
+
+But now I can do that using any cheap USB game controller and the Gamepad API.
 
 The Gamepad API is available in HTML5. It is also available for NodeJS - the project(https://github.com/creationix/node-gamepad).
 
