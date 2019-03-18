@@ -12,7 +12,7 @@ What I am doing is creating a request to send direction parameters (up, down, le
 npm install gamepad
 ```
 # the ONVIF PTZ controller in PHP
-Copy the ponvif directory and ponvif_server.php to your webserver. 
+Copy the ponvif directory to your webserver. 
 Check the lib folder therein, so you can supply the login details for your ip camera if needed. 
 
 I added a super simple handler that uses the ONVIF library (ponvif_server.php) which takes two parameters, namely:
