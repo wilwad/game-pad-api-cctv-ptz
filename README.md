@@ -16,4 +16,4 @@ node joystick.js
 ```
 Check out the rest of the code inside joystick.js.
 
-[generic USB game controller](https://github.com/wilwad/game-pad-api-cctv-ptz/blob/master/ipcam-gameapi.jpeg)
+![my generic USB game controller](https://github.com/wilwad/game-pad-api-cctv-ptz/blob/master/ipcam-gameapi.jpeg)
