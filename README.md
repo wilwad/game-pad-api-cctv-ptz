@@ -1,4 +1,4 @@
-# game-pad-api-cctv-ptz
+# Controlling an ONVIF PTZ CCTV Camera
 I used to control my PTZ cameras using the keyboard keys (up, down, left & right)
 But now I can do that using any cheap USB game controller
 
@@ -14,4 +14,4 @@ npm install gamepad
 ```
 node joystick.js
 ```
-The code is inside joystick.js
+Check out the rest of the code inside joystick.js.
